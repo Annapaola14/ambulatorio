@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="visualizza" prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/menuStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoambulatoriojavafx.VisualizzaController">
+   <children>
+      <ListView fx:id="lista" layoutX="183.0" layoutY="110.0" prefHeight="256.0" prefWidth="233.0" style="-fx-border-color: white; -fx-border-width: 2;" styleClass="root" />
+      <Label layoutX="197.0" layoutY="53.0" prefHeight="34.0" prefWidth="227.0" text="LISTA PAZIENTI" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button layoutX="58.0" layoutY="175.0" mnemonicParsing="false" onAction="#esci" text="exit" />
+   </children>
+</AnchorPane>

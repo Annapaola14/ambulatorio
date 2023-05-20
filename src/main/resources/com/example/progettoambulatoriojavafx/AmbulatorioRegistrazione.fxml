@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="registrazionePanel" prefHeight="514.0" prefWidth="600.0" stylesheets="@../css/menuStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoambulatoriojavafx.AmbulatorioController">
+    <children>
+        <Label layoutX="142.0" layoutY="24.0" text="REGISTRAZIONE" textFill="RED">
+            <font>
+                <Font name="Berlin Sans FB" size="45.0" />
+            </font></Label>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="61.0" prefHeight="100.0" prefWidth="579.0">
+         <children>
+              <Label text="Nome" textFill="WHITE">
+                  <font>
+                      <Font name="Bell MT Bold" size="16.0" />
+                  </font>
+               <HBox.margin>
+                  <Insets right="15.0" />
+               </HBox.margin>
+            </Label>
+              <TextField fx:id="nomeT" prefHeight="25.0" prefWidth="170.0" promptText="Inserisci il nome..." styleClass="root">
+               <font>
+                  <Font name="Bell MT Bold" size="16.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+        <Label layoutX="142.0" layoutY="290.0" text="Codice fiscale" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="16.0" />
+            </font></Label>
+        <Label layoutX="202.0" layoutY="228.0" text="Età" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="16.0" />
+            </font></Label>
+        <Label layoutX="132.0" layoutY="377.0" text="Problematica" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="16.0" />
+            </font></Label>
+        <TextField fx:id="etaT" layoutX="244.0" layoutY="222.0" prefHeight="25.0" prefWidth="170.0" promptText="Inseriscil'età..." styleClass="root">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></TextField>
+        <TextArea fx:id="patologiaT" layoutX="244.0" layoutY="347.0" prefHeight="81.0" prefWidth="200.0" promptText="Inserire il problema..">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></TextArea>
+        <TextField fx:id="cfT" layoutX="244.0" layoutY="283.0" prefHeight="25.0" prefWidth="170.0" promptText="Inserire il codice fiscale..." styleClass="root">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></TextField>
+        <Button layoutX="82.0" layoutY="450.0" mnemonicParsing="false" onAction="#esciRegistrazione" style="-fx-border-color: black;" styleClass="root" text="ESCI">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></Button>
+        <Button layoutX="265.0" layoutY="450.0" mnemonicParsing="false" onAction="#cancellaDati" style="-fx-border-color: black;" styleClass="root" text="CANCELLA">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></Button>
+        <Button layoutX="474.0" layoutY="450.0" mnemonicParsing="false" onAction="#salvaDati" style="-fx-border-color: black;" styleClass="root" text="SALVA">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font></Button>
+        <Label layoutX="168.0" layoutY="168.0" text="Cognome" textFill="WHITE">
+            <font>
+                <Font name="Bell MT Bold" size="16.0" />
+            </font>
+      </Label>
+        <TextField fx:id="cognomeT" layoutX="244.0" layoutY="161.0" prefHeight="25.0" prefWidth="170.0" promptText="Inserisci il cognome..." styleClass="root">
+         <font>
+            <Font name="Bell MT Bold" size="16.0" />
+         </font>
+      </TextField>
+    </children>
+</AnchorPane>

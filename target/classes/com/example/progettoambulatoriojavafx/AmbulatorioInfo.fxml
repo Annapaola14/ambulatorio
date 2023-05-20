@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/menuStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoambulatoriojavafx.AmbulatorioController">
+   <children>
+      <Label layoutX="76.0" layoutY="14.0" text="Ambulatorio di bari informazioni" textFill="RED">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="28.0" />
+         </font></Label>
+      <Label layoutX="120.0" layoutY="73.0" text="via giacomo leopardi 23" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="134.0" text="numero di posti totali --&gt; 120" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="194.0" text="numero di dipendenti --&gt; 70" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="253.0" text="numero di dottori --&gt; 30" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="312.0" text="orario di apertura --&gt; 6:00 - 23:00" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

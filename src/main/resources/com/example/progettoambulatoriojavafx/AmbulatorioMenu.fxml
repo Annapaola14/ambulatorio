@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane id="pannelloPrincipale" fx:id="sfondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@../css/menuStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettoambulatoriojavafx.AmbulatorioController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <menus>
+                <Menu mnemonicParsing="false" text="Segreteria">
+                    <items>
+                  <MenuItem mnemonicParsing="false" onAction="#visualizza" text="Visualizza" />
+                        <MenuItem mnemonicParsing="false" onAction="#Registrazione" text="Registrazione" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Informazioni">
+                    <items>
+                        <MenuItem fx:id="aboutButton" mnemonicParsing="false" onAction="#chisiamo" text="About" />
+                  <MenuItem mnemonicParsing="false" onAction="#dottore" text="Dottore" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+   <center>
+      <Label text="AMBULATORIO AMORUSO" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="45.0" />
+         </font>
+      </Label>
+   </center>
+   <bottom>
+      <Label textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="35.0" />
+         </font>
+      </Label>
+   </bottom>
+</BorderPane>
